@@ -2,7 +2,28 @@
 @media (min-width: 1200px) {}
 
 /* Large devices (Laptops) */
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+    /* about page */
+    .muab-phylosophy{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .muab-phylosophy img{
+        width: 100%;
+    }
+
+    .muab-phylosophy .muab-phylosophy-content{
+        max-width: 1000px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .muab-phylosophy .muab-phylosophy-content p{
+        width: 100%;
+        text-align: center;
+    }
+}
 
 /* Medium devices (tablets) */
 @media (max-width: 1095px) {
@@ -13,7 +34,9 @@
     .mu-lookbook,
     .mu-brand,
     footer,
-    .mubs-main {
+    .mubs-main,
+    .musg,
+    .muab-about {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -31,7 +54,10 @@
     .mu-bestsellers,
     .mu-lookbook,
     footer,
-    .mubs-main {
+    .mubs-main,
+    .musg,
+    .muab-about,
+    .muab-phylosophy {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -48,6 +74,36 @@
 
     .mubs-cards .mubs-card p {
         font-size: 12px;
+    }
+
+    /* singleProductPage */
+
+    .musg .musg-imgs, .musg .musg-info{
+        width: 48%;
+    }
+
+    /* about page */
+
+    .muab-about{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .muab-about .muab-about-content{
+        align-items: center;
+    }
+
+    .muab-about .muab-about-content img{
+        height: 32px;
+    }
+
+    .muab-phylosophy .muab-phylosophy-content h3{
+        font-size: 32px;
+    }
+
+    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+        font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -199,6 +255,23 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 20px;
     }
+
+    /* singleProductPage */
+    
+    .musg{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .musg .musg-imgs, .musg .musg-info{
+        width: 100%;
+    }
+
+    /* about page */
+
+    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+        font-size: 12px;
+    }
 }
 
 /* Small devices (landscape phone) */
@@ -243,5 +316,11 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+    }
+
+    /* about page */
+
+    .muab-about img{
+        width: 100%;
     }
 }

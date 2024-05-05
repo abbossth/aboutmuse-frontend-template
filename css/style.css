@@ -463,3 +463,165 @@ footer {
     font-weight: 200;
 }
 
+
+/* this is a end of besteller page and beginning of single product page */
+
+.musg {
+    padding: 50px 160px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.musg .musg-imgs {
+    width: 45%;
+    height: 500px;
+    background: red;    
+}
+
+.musg .musg-info{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.musg .musg-info h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.musg .musg-info p{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--footer-color);
+    max-width: 380px;
+    margin: 0 0 10px 0;
+}
+
+.musg-color-picker{
+    display: flex;
+    gap: 20px;
+}
+
+.musg-color-picker .musg-color-picker__item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.musg-sizer{
+    display: flex;
+    gap: 20px;
+}
+
+.musg-sizer p{
+    padding: 6px 20px;
+    border: 1px solid var(--footer-color);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-color);
+}
+
+.musg-order-elements{
+    display: flex;
+    gap: 26px;
+    align-items: center;
+}
+
+.musg-order-elements button{
+    padding: 20px 60px;
+    border: none;
+    background-color: var(--footer-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.musg-order-elements button:hover{
+    background-color: #DB94A4;
+}
+
+.musg-order-elements i{
+    font-size: 28px;
+    color: var(--footer-color);
+}
+
+/* This is a end of single product page and beginning of about page */
+
+.muab-about, .muab-phylosophy{
+    padding: 0 160px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1px solid var(--text-color);
+}
+
+.muab-phylosophy{
+    padding: 60px 160px 0 160px;
+    border: none;
+}
+
+.muab-about img, .muab-phylosophy img{
+    max-width: 460px;
+    height: auto;
+    object-fit: cover;
+}
+
+.muab-about .muab-about-content, .muab-phylosophy .muab-phylosophy-content{
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.muab-about .muab-about-content img{
+    height: 44px;
+    object-fit: contain;
+}
+
+.muab-phylosophy .muab-phylosophy-content h3{
+    font-size: 44px;
+    font-weight: 300;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+/* This is a end of about page and beginning of order page */
+
+.mu-navigator{
+    padding: 50px 160px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+
+.mu-navigator li:first-child{
+    list-style-type: none;
+}
+
+.mu-navigator li::marker{
+    color: var(--text-color);
+}
+
+.mu-navigator li a{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--footer-color);
+    text-decoration: none;
+}
+
