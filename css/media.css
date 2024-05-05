@@ -1,0 +1,211 @@
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {}
+
+/* Large devices (Laptops) */
+@media (max-width: 1200px) {}
+
+/* Medium devices (tablets) */
+@media (max-width: 1095px) {
+
+    header,
+    .mu-category-head,
+    .mu-bestsellers,
+    .mu-lookbook,
+    .mu-brand,
+    footer {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .mu-lookbook {
+        height: 620px;
+    }
+}
+
+/* Small devices (landscape pads) */
+@media (max-width: 895px) {
+
+    header,
+    .mu-category-head,
+    .mu-bestsellers,
+    .mu-lookbook,
+    footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header__icons .mu-search {
+        display: none;
+    }
+}
+
+/* Small devices (landscape pads) */
+@media (max-width: 800px) {
+    .mu-lookbook .mu-lookbook-full {
+        display: none;
+    }
+
+    .mu-lookbook {
+        height: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mu-lookbook .mu-lookbook-upper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    .mu-lookbook .mu-lookbook-upper img {
+        width: 50%;
+        height: auto;
+    }
+
+    .mu-lookbook .mu-lookbook-upper .mu-lookbook__content p {
+        width: 80%;
+    }
+
+    .mu-lookbook .mu-lookbook-upper .mu-lookbook__content a {
+        font-size: 16px;
+    }
+
+    .mu-lookbook .mu-lookbook-lower {
+        width: 60%;
+    }
+
+    .mu-second-brand-text {
+        display: none;
+    }
+
+    .mu-footer-elements {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .mu-footer-contact {
+        height: auto;
+    }
+}
+
+/* Small devices (landscape pads) */
+@media (max-width: 700px) {
+    nav {
+        display: none;
+    }
+
+    .fa-bars {
+        display: block;
+        font-size: 24px;
+    }
+
+    /* banner */
+
+    .mu-banner {
+        height: 430px;
+    }
+
+    .mu-banner .mu-banner__content {
+        gap: 8px;
+    }
+
+    .mu-banner img {
+        height: 30px;
+    }
+
+    .mu-banner .mu-banner__content p,
+    .mu-banner .mu-banner__content a {
+        font-size: 8px;
+    }
+
+    .mu-category-head h2 {
+        font-size: 24px;
+    }
+
+    /* bestseller */
+
+    .mu-bestsellers {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mu-bestsellers .mu-bestsellers__item {
+        max-width: 400px;
+        gap: 10px;
+    }
+
+    .mu-bestsellers .mu-bestsellers__item img {
+        max-height: 370px;
+        aspect-ratio: 1/1.5;
+    }
+
+    .mu-bestsellers .mu-bestsellers__item .mu-bestsellers__item-content h3 {
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .mu-bestsellers .mu-bestsellers__item .mu-bestsellers__item-content p {
+        font-size: 11px;
+        font-weight: 200;
+    }
+
+    /* Collection */
+    .mu-collection {
+        gap: 20px;
+    }
+
+    .mu-collection .mu-collection__item_spring,
+    .mu-collection .mu-collection__item_autumn {
+        width: 45%;
+        aspect-ratio: 1/1.5;
+    }
+
+    .mu-collection .mu-collection__item_spring p,
+    .mu-collection .mu-collection__item_autumn p {
+        font-size: 16px;
+    }
+
+    .mu-brand .mu-brand-contently p {
+        font-size: 11px;
+    }
+}
+
+/* Small devices (landscape phone) */
+@media (max-width: 510px) {
+
+    /* collection */
+    .mu-collection .mu-collection__item_spring,
+    .mu-collection .mu-collection__item_autumn {
+        width: 45%;
+        height: 270px;
+    }
+
+    /* lookbook */
+    .mu-lookbook .mu-lookbook-upper .mu-lookbook__content p, .mu-brand .mu-brand-contently p {
+        font-size: 8px;
+    }
+
+    /* brand */
+    .mu-brand{
+        padding: 20px;
+    }
+
+    /* footer */
+    footer,
+    .mu-footer-elements {
+        align-items: flex-start;
+    }
+
+    footer img {
+        height: 22px;
+    }
+
+    .mu-footer-elements .mu-footer-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+}

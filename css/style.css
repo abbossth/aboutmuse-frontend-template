@@ -34,7 +34,12 @@ header {
     align-items: center;
 }
 
-header nav ul {
+.fa-bars{
+    display: none;
+
+}
+
+nav ul {
     display: flex;
     list-style: none;
     align-items: center;
@@ -43,44 +48,44 @@ header nav ul {
     margin: 0;
 }
 
-header nav ul li a {
+nav ul li a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     color: var(--footer-color);
 }
 
-header .header__icons {
+.header__icons {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
 
-header .header__icons .mu-search {
+.header__icons .mu-search {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-header .header__icons .mu-search i {
+.header__icons .mu-search i {
     font-size: 25px;
     color: var(--footer-color);
 }
 
-header .header__icons .mu-search input {
+ .header__icons .mu-search input {
     border: none;
     outline: none;
     max-width: 70px;
     font-size: 16px;
 }
 
-header .header__icons a img {
+ .header__icons a img {
     width: 25px;
     height: 25px;
 }
 
-header .header__icons a i {
+ .header__icons a i {
     font-size: 25px;
     color: var(--footer-color);
     margin-top: 1px;
@@ -317,6 +322,7 @@ header .header__icons a i {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 /* Footer */
@@ -384,7 +390,7 @@ footer {
 }
 
 .mu-footer-contact .mu-footer__social a{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     text-decoration: none;
 }
