@@ -12,7 +12,8 @@
     .mu-bestsellers,
     .mu-lookbook,
     .mu-brand,
-    footer {
+    footer,
+    .mubs-main {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -29,13 +30,24 @@
     .mu-category-head,
     .mu-bestsellers,
     .mu-lookbook,
-    footer {
+    footer,
+    .mubs-main {
         padding-left: 20px;
         padding-right: 20px;
     }
 
     .header__icons .mu-search {
         display: none;
+    }
+
+    /* bestsellerPage */
+
+    .mubs-cards .mubs-card h3 {
+        font-size: 15px;
+    }
+
+    .mubs-cards .mubs-card p {
+        font-size: 12px;
     }
 }
 
@@ -90,6 +102,8 @@
     .mu-footer-contact {
         height: auto;
     }
+
+    
 }
 
 /* Small devices (landscape pads) */
@@ -172,6 +186,19 @@
     .mu-brand .mu-brand-contently p {
         font-size: 11px;
     }
+
+    /* bestsellerPage */
+
+    .mubs-main aside{
+        display: none;
+    }
+
+    .mubs-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
 }
 
 /* Small devices (landscape phone) */
@@ -207,5 +234,14 @@
     .mu-footer-elements .mu-footer-content {
         flex-direction: column;
         gap: 10px;
+    }
+
+    /* bestsellerPage */
+
+    .mubs-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
     }
 }

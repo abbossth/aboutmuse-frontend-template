@@ -32,6 +32,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--footer-color);
 }
 
 .fa-bars{
@@ -394,3 +395,71 @@ footer {
     color: white;
     text-decoration: none;
 }
+
+/* This is a end of main page */
+
+
+/* This is a beginning of bestseller */
+
+.mubs-main{
+    padding: 50px 160px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.mubs-main aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mubs-main aside h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--footer-color);
+}
+
+.mubs-main aside ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.mubs-main aside a{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--footer-color);
+    text-decoration: none;
+}
+
+.mubs-cards{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.mubs-cards .mubs-card {
+    max-width: 260px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mubs-cards .mubs-card img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.mubs-cards .mubs-card h3 {
+    font-size: 24px;
+    font-weight: 200;
+}
+
