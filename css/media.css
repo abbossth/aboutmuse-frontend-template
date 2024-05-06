@@ -3,23 +3,24 @@
 
 /* Large devices (Laptops) */
 @media (max-width: 1200px) {
+
     /* about page */
-    .muab-phylosophy{
+    .muab-phylosophy {
         flex-direction: column;
         gap: 20px;
     }
 
-    .muab-phylosophy img{
+    .muab-phylosophy img {
         width: 100%;
     }
 
-    .muab-phylosophy .muab-phylosophy-content{
+    .muab-phylosophy .muab-phylosophy-content {
         max-width: 1000px;
         width: 100%;
         align-items: center;
     }
 
-    .muab-phylosophy .muab-phylosophy-content p{
+    .muab-phylosophy .muab-phylosophy-content p {
         width: 100%;
         text-align: center;
     }
@@ -38,7 +39,8 @@
     .musg,
     .muab-about,
     .mu-navigator,
-    .mukl {
+    .mukl,
+    .muct {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -62,7 +64,8 @@
     .muab-phylosophy,
     .muab-form,
     .mu-navigator,
-    .mukl  {
+    .mukl,
+    .muct {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -83,40 +86,42 @@
 
     /* singleProductPage */
 
-    .musg .musg-imgs, .musg .musg-info{
+    .musg .musg-imgs,
+    .musg .musg-info {
         width: 48%;
     }
 
     /* about page */
 
-    .muab-about{
+    .muab-about {
         flex-direction: column;
         gap: 20px;
     }
 
-    .muab-about .muab-about-content{
+    .muab-about .muab-about-content {
         align-items: center;
     }
 
-    .muab-about .muab-about-content img{
+    .muab-about .muab-about-content img {
         height: 32px;
     }
 
-    .muab-phylosophy .muab-phylosophy-content h3{
+    .muab-phylosophy .muab-phylosophy-content h3 {
         font-size: 32px;
     }
 
-    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+    .muab-about .muab-about-content p,
+    .muab-phylosophy .muab-phylosophy-content p {
         font-size: 16px;
         text-align: center;
     }
 
-    .muab-form .muab-form-item{
+    .muab-form .muab-form-item {
         width: 100%;
     }
 
     /* collection page */
-    .mukl .mukl-item p{
+    .mukl .mukl-item p {
         font-size: 16px;
     }
 }
@@ -173,7 +178,7 @@
         height: auto;
     }
 
-    
+
 }
 
 /* Small devices (landscape pads) */
@@ -259,11 +264,11 @@
 
     /* bestsellerPage */
 
-    .mubs-main aside{
+    .mubs-main aside {
         display: none;
     }
 
-    .mubs-cards{
+    .mubs-cards {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -271,31 +276,41 @@
     }
 
     /* singleProductPage */
-    
-    .musg{
+
+    .musg {
         flex-direction: column;
         gap: 20px;
     }
 
-    .musg .musg-imgs, .musg .musg-info{
+    .musg .musg-imgs,
+    .musg .musg-info {
         width: 100%;
     }
 
     /* about page */
 
-    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p, .muab-form p{
+    .muab-about .muab-about-content p,
+    .muab-phylosophy .muab-phylosophy-content p,
+    .muab-form p {
         font-size: 12px;
         text-align: center;
     }
 
     /* collection page */
 
-    .mukl .mukl-item .mukl-item-div p{
+    .mukl .mukl-item .mukl-item-div p {
         font-size: 22px;
     }
 
-     /* collection page */
-     .mukl .mukl-item p{
+    /* collection page */
+    .mukl .mukl-item p {
+        font-size: 12px;
+    }
+
+    /* contact page */
+
+    .muct .muct__content p,
+    .muct .muct__content a {
         font-size: 12px;
     }
 }
@@ -314,13 +329,20 @@
         display: none;
     }
 
+    /* bestseller */
+
+    .mu-bestsellers {
+        margin-top: 10px;
+    }
+
     /* lookbook */
-    .mu-lookbook .mu-lookbook-upper .mu-lookbook__content p, .mu-brand .mu-brand-contently p {
+    .mu-lookbook .mu-lookbook-upper .mu-lookbook__content p,
+    .mu-brand .mu-brand-contently p {
         font-size: 8px;
     }
 
     /* brand */
-    .mu-brand{
+    .mu-brand {
         padding: 20px;
     }
 
@@ -341,7 +363,7 @@
 
     /* bestsellerPage */
 
-    .mubs-cards{
+    .mubs-cards {
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -350,18 +372,34 @@
 
     /* about page */
 
-    .muab-about img{
+    .muab-about img {
         width: 100%;
     }
 
-     /* collection page */
-     .mukl {
+    /* collection page */
+    .mukl {
         flex-direction: column;
         gap: 20px;
         padding-top: 20px;
-     }
+    }
 
-     .mukl .mukl-item{
+    .mukl .mukl-item {
         width: 100%;
-     }
+    }
+
+    /* contact page */
+
+    .muct {
+        margin-top: 20px;
+    }
+
+
+    .muct .muct__content {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .muct .muct__content .muct__content-item p {
+        margin: 0;
+    }
 }

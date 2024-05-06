@@ -727,3 +727,19 @@ footer {
     color: var(--footer-color);
     text-align: center;
 }
+
+/* contact page */
+
+.muct{
+    padding: 0px 160px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.muct .muct__content{
+    display: flex;
+    gap: 40px;
+}
