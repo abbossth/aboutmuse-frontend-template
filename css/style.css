@@ -114,6 +114,59 @@ nav ul li a {
     text-decoration: none;
 }
 
+.mu-mobile-menu{
+    transform: translateX(-100%);
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: #db94a5c7;
+    z-index: 1000;
+    animation: menucloser 0.5s ease;
+}
+
+@keyframes menucloser {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.active-menu{
+    transform: translateX(0);
+    
+    animation: menuopener 0.5s ease;
+}
+
+@keyframes menuopener {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.mu-mobile-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.mu-mobile-menu ul li a{
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
 /* Main */
 /* Banner */
 
