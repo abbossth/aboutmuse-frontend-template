@@ -36,7 +36,9 @@
     footer,
     .mubs-main,
     .musg,
-    .muab-about {
+    .muab-about,
+    .mu-navigator,
+    .mukl {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -58,7 +60,9 @@
     .musg,
     .muab-about,
     .muab-phylosophy,
-    .muab-form  {
+    .muab-form,
+    .mu-navigator,
+    .mukl  {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -109,6 +113,11 @@
 
     .muab-form .muab-form-item{
         width: 100%;
+    }
+
+    /* collection page */
+    .mukl .mukl-item p{
+        font-size: 16px;
     }
 }
 
@@ -278,6 +287,17 @@
         font-size: 12px;
         text-align: center;
     }
+
+    /* collection page */
+
+    .mukl .mukl-item .mukl-item-div p{
+        font-size: 22px;
+    }
+
+     /* collection page */
+     .mukl .mukl-item p{
+        font-size: 12px;
+    }
 }
 
 /* Small devices (landscape phone) */
@@ -288,6 +308,10 @@
     .mu-collection .mu-collection__item_autumn {
         width: 45%;
         height: 270px;
+    }
+
+    .mu-navigator {
+        display: none;
     }
 
     /* lookbook */
@@ -329,4 +353,15 @@
     .muab-about img{
         width: 100%;
     }
+
+     /* collection page */
+     .mukl {
+        flex-direction: column;
+        gap: 20px;
+        padding-top: 20px;
+     }
+
+     .mukl .mukl-item{
+        width: 100%;
+     }
 }

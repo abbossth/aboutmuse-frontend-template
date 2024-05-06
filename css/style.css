@@ -35,7 +35,7 @@ header {
     border-bottom: 1px solid var(--footer-color);
 }
 
-.fa-bars{
+.fa-bars {
     display: none;
 
 }
@@ -74,22 +74,44 @@ nav ul li a {
     color: var(--footer-color);
 }
 
- .header__icons .mu-search input {
+.header__icons .mu-search input {
     border: none;
     outline: none;
     max-width: 70px;
     font-size: 16px;
 }
 
- .header__icons a img {
+.header__icons a img {
     width: 25px;
     height: 25px;
 }
 
- .header__icons a i {
+.header__icons a i {
     font-size: 25px;
     color: var(--footer-color);
     margin-top: 1px;
+}
+
+.mu-navigator {
+    padding: 50px 160px;
+    box-sizing: border-box;
+    display: flex;
+    gap: 20px;
+}
+
+.mu-navigator li:first-child {
+    list-style-type: none;
+}
+
+.mu-navigator li::marker {
+    color: var(--text-color);
+}
+
+.mu-navigator li a {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--footer-color);
+    text-decoration: none;
 }
 
 /* Main */
@@ -296,18 +318,18 @@ nav ul li a {
     justify-content: space-between;
 }
 
-.mu-brand .mu-brand-contently img{
+.mu-brand .mu-brand-contently img {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-.mu-brand .mu-brand-contently .mu-brand__content{
+.mu-brand .mu-brand-contently .mu-brand__content {
     display: flex;
     gap: 20px;
 }
 
-.mu-brand .mu-brand-contently a{
+.mu-brand .mu-brand-contently a {
     font-size: 16px;
     font-weight: 300;
     color: var(--footer-color);
@@ -339,7 +361,7 @@ footer {
     align-items: center;
 }
 
-.mu-footer-elements{
+.mu-footer-elements {
     width: 100%;
     display: flex;
     align-items: center;
@@ -351,18 +373,18 @@ footer {
     gap: 40px;
 }
 
-.mu-footer-elements .mu-footer-content .mu-footer-content-item{
+.mu-footer-elements .mu-footer-content .mu-footer-content-item {
     display: flex;
     flex-direction: column;
 }
 
-.mu-footer-content-item h3{
+.mu-footer-content-item h3 {
     font-size: 20px;
     font-weight: 500;
     color: white;
 }
 
-.mu-footer-content-item ul{
+.mu-footer-content-item ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -370,14 +392,14 @@ footer {
     padding: 0;
 }
 
-.mu-footer-content-item a{
+.mu-footer-content-item a {
     font-size: 14px;
     font-weight: 300;
     color: white;
     text-decoration: none;
 }
 
-.mu-footer-contact{
+.mu-footer-contact {
     height: 174px;
     display: flex;
     flex-direction: column;
@@ -385,12 +407,12 @@ footer {
     align-items: space-between;
 }
 
-.mu-footer-contact .mu-footer__social{
+.mu-footer-contact .mu-footer__social {
     display: flex;
     gap: 20px;
 }
 
-.mu-footer-contact .mu-footer__social a{
+.mu-footer-contact .mu-footer__social a {
     font-size: 22px;
     color: white;
     text-decoration: none;
@@ -401,7 +423,7 @@ footer {
 
 /* This is a beginning of bestseller */
 
-.mubs-main{
+.mubs-main {
     padding: 50px 160px;
     box-sizing: border-box;
     display: flex;
@@ -409,20 +431,20 @@ footer {
     gap: 20px;
 }
 
-.mubs-main aside{
+.mubs-main aside {
     width: 30%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.mubs-main aside h3{
+.mubs-main aside h3 {
     font-size: 20px;
     font-weight: 500;
     color: var(--footer-color);
 }
 
-.mubs-main aside ul{
+.mubs-main aside ul {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -430,14 +452,14 @@ footer {
     padding: 0;
 }
 
-.mubs-main aside a{
+.mubs-main aside a {
     font-size: 14px;
     font-weight: 300;
     color: var(--footer-color);
     text-decoration: none;
 }
 
-.mubs-cards{
+.mubs-cards {
     width: 70%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -477,24 +499,24 @@ footer {
 .musg .musg-imgs {
     width: 45%;
     height: 500px;
-    background: red;    
+    background: red;
 }
 
-.musg .musg-info{
+.musg .musg-info {
     width: 40%;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.musg .musg-info h3{
+.musg .musg-info h3 {
     font-size: 24px;
     font-weight: 400;
     color: var(--footer-color);
     margin: 0;
 }
 
-.musg .musg-info p{
+.musg .musg-info p {
     font-size: 15px;
     font-weight: 400;
     color: var(--footer-color);
@@ -502,23 +524,23 @@ footer {
     margin: 0 0 10px 0;
 }
 
-.musg-color-picker{
+.musg-color-picker {
     display: flex;
     gap: 20px;
 }
 
-.musg-color-picker .musg-color-picker__item{
+.musg-color-picker .musg-color-picker__item {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-.musg-sizer{
+.musg-sizer {
     display: flex;
     gap: 20px;
 }
 
-.musg-sizer p{
+.musg-sizer p {
     padding: 6px 20px;
     border: 1px solid var(--footer-color);
     font-size: 16px;
@@ -526,13 +548,13 @@ footer {
     color: var(--footer-color);
 }
 
-.musg-order-elements{
+.musg-order-elements {
     display: flex;
     gap: 26px;
     align-items: center;
 }
 
-.musg-order-elements button{
+.musg-order-elements button {
     padding: 20px 60px;
     border: none;
     background-color: var(--footer-color);
@@ -542,18 +564,19 @@ footer {
     cursor: pointer;
 }
 
-.musg-order-elements button:hover{
+.musg-order-elements button:hover {
     background-color: #DB94A4;
 }
 
-.musg-order-elements i{
+.musg-order-elements i {
     font-size: 28px;
     color: var(--footer-color);
 }
 
 /* This is a end of single product page and beginning of about page */
 
-.muab-about, .muab-phylosophy{
+.muab-about,
+.muab-phylosophy {
     padding: 0 160px;
     box-sizing: border-box;
     display: flex;
@@ -563,37 +586,40 @@ footer {
     border-bottom: 1px solid var(--text-color);
 }
 
-.muab-phylosophy{
+.muab-phylosophy {
     padding: 60px 160px 0 160px;
     border: none;
 }
 
-.muab-about img, .muab-phylosophy img{
+.muab-about img,
+.muab-phylosophy img {
     max-width: 460px;
     height: auto;
     object-fit: cover;
 }
 
-.muab-about .muab-about-content, .muab-phylosophy .muab-phylosophy-content{
+.muab-about .muab-about-content,
+.muab-phylosophy .muab-phylosophy-content {
     max-width: 560px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.muab-about .muab-about-content img{
+.muab-about .muab-about-content img {
     height: 44px;
     object-fit: contain;
 }
 
-.muab-phylosophy .muab-phylosophy-content h3{
+.muab-phylosophy .muab-phylosophy-content h3 {
     font-size: 44px;
     font-weight: 300;
     color: var(--text-color);
     margin: 0;
 }
 
-.muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+.muab-about .muab-about-content p,
+.muab-phylosophy .muab-phylosophy-content p {
     font-size: 20px;
     line-height: 40px;
     font-weight: 400;
@@ -611,20 +637,20 @@ footer {
     align-items: center;
 }
 
-.muab-form .muab-form-item{
+.muab-form .muab-form-item {
     width: 756px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.muab-form .muab-form-item label{
+.muab-form .muab-form-item label {
     font-size: 20px;
     font-weight: 400;
     color: var(--footer-color);
 }
 
-.muab-form .muab-form-item input{
+.muab-form .muab-form-item input {
     width: 100%;
     padding: 10px;
     border: none;
@@ -633,11 +659,11 @@ footer {
     font-weight: 400;
 }
 
-.muab-form .muab-form-item .muab-file-input{
+.muab-form .muab-form-item .muab-file-input {
     border: none;
 }
 
-.muab-form button{
+.muab-form button {
     padding: 16px 60px;
     border: none;
     background-color: var(--footer-color);
@@ -647,31 +673,57 @@ footer {
     cursor: pointer;
 }
 
-.muab-form button:hover{
+.muab-form button:hover {
     background-color: #DB94A4;
 }
 
-/* This is a end of about page and beginning of order page */
+/* This is a end of about page and beginning of collection page */
 
-.mu-navigator{
-    padding: 50px 160px;
+.mukl {
+    padding: 0px 160px;
     box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.mukl .mukl-item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
-.mu-navigator li:first-child{
-    list-style-type: none;
+.mukl .mukl-item  .first{
+    background-image: url('../images/collection1.jpg');
 }
 
-.mu-navigator li::marker{
-    color: var(--text-color);
+.mukl .mukl-item  .second{
+    background-image: url('../images/collection2.jpg');
 }
 
-.mu-navigator li a{
-    font-size: 16px;
-    font-weight: 300;
+.mukl .mukl-item .mukl-item-div{
+    width: 100%;
+    aspect-ratio: 9/10;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mukl .mukl-item .mukl-item-div p{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+}
+
+.mukl .mukl-item p{
+    font-size: 20px;
+    font-weight: 400;
     color: var(--footer-color);
-    text-decoration: none;
+    text-align: center;
 }
-
