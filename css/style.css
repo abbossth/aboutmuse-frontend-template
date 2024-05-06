@@ -914,3 +914,87 @@ footer {
     color: var(--footer-color);
     margin: 0;
 }
+
+/* thanks page */
+
+.mu-thanks{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.mu-thanks i {
+    font-size: 100px;
+    color: var(--text-color);
+    border: 5px solid var(--text-color);
+    border-radius: 50%;
+    padding: 45px 51px;
+}
+
+.mu-thanks h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--footer-color);
+    margin: 0;
+    text-align: center;
+}
+
+.mu-thanks p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+    max-width: 820px;
+    text-align: center;
+}
+
+/* not found page */
+
+.munf{
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.munf p, .munf .munf-404 p{
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.munf .munf-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.munf .munf-404 h3{
+    font-size: 500px;
+    line-height: 400px;
+    font-weight: 500;
+    margin: 0;
+    position: relative;
+}
+
+
+.munf .munf-404 img{
+    position: absolute;
+    font-weight: 500;
+    color: var(--footer-color);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.mu-footer-content{
+    display: flex; gap: 40px; margin-bottom: 40px;
+}

@@ -40,7 +40,8 @@
     .muab-about,
     .mu-navigator,
     .mukl,
-    .muct {
+    .muct,
+    .munf {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -57,6 +58,12 @@
 
     .murg-right{
         padding: 60px 60px 0 50px;
+    }
+
+    /* not found page */
+
+    .munf .munf-404 h3{
+        font-size: 400px;
     }
 }
 
@@ -75,7 +82,8 @@
     .muab-form,
     .mu-navigator,
     .mukl,
-    .muct {
+    .muct,
+    .munf {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -218,6 +226,12 @@
 
     .murg-form-inputs-delivery .murg-delivery-type p, .murg-form-inputs-delivery .murg-delivery-type .murg-delivery-type-input label{
         font-size: 12px;
+    }
+
+    /* not found page */
+
+    .munf .munf-404 h3{
+        font-size: 300px;
     }
 }
 
@@ -363,6 +377,19 @@
     .murg-left, .murg-right {
         width: 100%;
     }
+
+    /* not found page */
+
+    .munf .munf-404 h3{
+        font-size: 200px;
+        line-height: 200px;
+    }
+
+    .munf .munf-404 img{
+        top: 35%;
+        height: 42px;
+        width: 42px;
+    }
 }
 
 /* Small devices (landscape phone) */
@@ -463,5 +490,34 @@
         box-sizing: border-box;
         border: 1px solid var(--footer-color);
         width: 48%;
+    }
+
+    /* not found page */
+
+    .munf{
+        gap: 10px;
+    }
+
+    .munf .munf-404 h3{
+        font-size: 170px;
+        line-height: 170px;
+    }
+
+    .munf .munf-404 img{
+        top: 22%;
+        height: 42px;
+        width: 42px;
+    }
+
+    .mu-footer-content{
+        gap: 10px;
+    }
+
+    .mu-footer-content h3{
+        font-size: 16px;
+    }
+
+    .mu-footer-content a{
+        font-size: 12px;
     }
 }
