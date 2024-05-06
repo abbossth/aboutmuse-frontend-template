@@ -57,7 +57,8 @@
     .mubs-main,
     .musg,
     .muab-about,
-    .muab-phylosophy {
+    .muab-phylosophy,
+    .muab-form  {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -104,6 +105,10 @@
     .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
         font-size: 16px;
         text-align: center;
+    }
+
+    .muab-form .muab-form-item{
+        width: 100%;
     }
 }
 
@@ -269,8 +274,9 @@
 
     /* about page */
 
-    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p{
+    .muab-about .muab-about-content p, .muab-phylosophy .muab-phylosophy-content p, .muab-form p{
         font-size: 12px;
+        text-align: center;
     }
 }
 

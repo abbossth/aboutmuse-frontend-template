@@ -601,6 +601,56 @@ footer {
     margin: 0;
 }
 
+.muab-form {
+    padding: 50px 160px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.muab-form .muab-form-item{
+    width: 756px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.muab-form .muab-form-item label{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--footer-color);
+}
+
+.muab-form .muab-form-item input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid var(--footer-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.muab-form .muab-form-item .muab-file-input{
+    border: none;
+}
+
+.muab-form button{
+    padding: 16px 60px;
+    border: none;
+    background-color: var(--footer-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.muab-form button:hover{
+    background-color: #DB94A4;
+}
+
 /* This is a end of about page and beginning of order page */
 
 .mu-navigator{
