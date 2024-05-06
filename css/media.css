@@ -48,6 +48,16 @@
     .mu-lookbook {
         height: 620px;
     }
+
+    /* register page */
+
+    .murg-left {
+        padding: 40px 40px 20px 60px;
+    }
+
+    .murg-right{
+        padding: 60px 60px 0 50px;
+    }
 }
 
 /* Small devices (landscape pads) */
@@ -124,6 +134,12 @@
     .mukl .mukl-item p {
         font-size: 16px;
     }
+
+    /* register page */
+
+    .murg-left, .murg-right {
+        padding: 20px;
+    }
 }
 
 /* Small devices (landscape pads) */
@@ -178,7 +194,31 @@
         height: auto;
     }
 
+    /* register page */
 
+    .murg-left .murg-rg-text h3, .murg-left .murg-form h3{
+        font-size: 18px;
+    }
+
+    .murg-left .murg-rg-text a{
+        font-size: 10px;
+    }
+
+    .murg-left .murg-form button{
+        font-size: 13px;
+    }
+
+    .murg-right .murg-right-item .murg-right-item-content h3{
+        font-size: 18px;
+    }
+
+    .murg-right .murg-right-item .murg-right-item-content p, .murg-right .murg-right-sum .murg-sum p{
+        font-size: 12px;
+    }
+
+    .murg-form-inputs-delivery .murg-delivery-type p, .murg-form-inputs-delivery .murg-delivery-type .murg-delivery-type-input label{
+        font-size: 12px;
+    }
 }
 
 /* Small devices (landscape pads) */
@@ -313,6 +353,16 @@
     .muct .muct__content a {
         font-size: 12px;
     }
+
+    /* register page */
+
+    .murg{
+        flex-direction: column;
+    }
+
+    .murg-left, .murg-right {
+        width: 100%;
+    }
 }
 
 /* Small devices (landscape phone) */
@@ -393,7 +443,6 @@
         margin-top: 20px;
     }
 
-
     .muct .muct__content {
         flex-direction: column;
         gap: 15px;
@@ -401,5 +450,18 @@
 
     .muct .muct__content .muct__content-item p {
         margin: 0;
+    }
+
+    /* register page */
+
+    .murg-left .murg-form .murg-form-inputs{
+        gap: 7px;
+    }
+
+    .murg-left .murg-form .murg-form-inputs input, .murg-left .murg-form .murg-form-inputs select{
+        padding: 5px;
+        box-sizing: border-box;
+        border: 1px solid var(--footer-color);
+        width: 48%;
     }
 }

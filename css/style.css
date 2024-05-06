@@ -743,3 +743,174 @@ footer {
     display: flex;
     gap: 40px;
 }
+
+/* register page */
+
+.murg{
+    display: flex;
+    justify-content: space-between;
+    min-height: 600px;
+}
+
+.murg-left, .murg-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.murg-left {
+    padding: 40px 40px 20px 160px;
+}
+
+.murg-back{
+    text-decoration: none;
+    color: var(--footer-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.murg-back:hover{
+    color: var(--text-color)
+}
+
+.murg-left .murg-rg-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.murg-left .murg-rg-text h3, .murg-left .murg-form h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.murg-left .murg-rg-text a{
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.murg-left .murg-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.murg-left .murg-form .murg-form-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.murg-left .murg-form .murg-form-inputs input, .murg-left .murg-form .murg-form-inputs select{
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid var(--footer-color);
+    width: 48%;
+}
+
+
+.murg-left .murg-form button{
+    padding: 16px 60px;
+    border: none;
+    background-color: var(--footer-color);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.murg-left .murg-form button:hover{
+    background-color: var(--text-color);
+}
+
+.murg-right{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 160px 0 50px;
+    background-color: #FFF3F5;
+}
+
+.murg-right .murg-right-item{
+    display: flex;
+    gap: 20px;
+}
+
+.murg-right .murg-right-item img{
+    height: 130px;
+    padding: 0 13px;
+    box-sizing: border-box;
+    border: 1px solid var(--footer-color);
+    object-fit: contain;
+}
+
+.murg-right .murg-right-item .murg-right-item-content h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.murg-right .murg-right-item .murg-right-item-content p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.murg-right .murg-right-sum{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: 20px 0;
+    box-sizing: border-box;
+    border-top: 1px solid var(--footer-color);
+    gap: 15px;
+}
+
+.murg-right .murg-right-sum .murg-sum{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.murg-right .murg-right-sum .murg-sum p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+/* delivery page */
+
+.murg-form-inputs-delivery{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.murg-form-inputs-delivery .murg-delivery-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--footer-color);
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.murg-form-inputs-delivery .murg-delivery-type .murg-delivery-type-input{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.murg-form-inputs-delivery .murg-delivery-type p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
