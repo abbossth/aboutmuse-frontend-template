@@ -1051,3 +1051,177 @@ footer {
 .mu-footer-content{
     display: flex; gap: 40px; margin-bottom: 40px;
 }
+
+/* order page */
+
+.muor{
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.muor .muor-cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.muor .muor-cards .muor-card{
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-top: 1px solid var(--footer-color);
+}
+
+.muor .muor-card img{
+    width: 160px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.muor-card__info p{
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 3px 0;
+}
+
+.muor-card-counter{
+    display: flex; 
+    align-items: space-between;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    width: 115px;
+    background: #E1E1E1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.muor-card-counter button{
+    height: 100%;
+    aspect-ratio: 1/1;
+    background: #E1E1E1;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.muor-card-counter p{
+    height: 100%;
+    background: #E1E1E1;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muor-all-sum{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.muor-all-sum p{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.muor-all-sum button{
+    width: 60%;
+    padding: 20px 60px;
+    border: none;
+    background-color: var(--footer-color);
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.muor-all-sum button:hover{
+    background-color: #DB94A4;
+}
+
+/* collection spring page */
+
+.muspring{
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.muspring h3{
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+}
+
+.musp-first{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.musp-first p{
+    font-weight: 400;
+    color: var(--footer-color);
+    margin: 0;
+    margin-top: auto;
+    align-items: self-end;
+}
+
+.musp-first img:first-child{
+    width: 40%;
+    object-fit: contain;
+}
+
+.musp-first img:last-child{
+    width: 22%;
+    object-fit: contain;
+}
+
+.musp-second{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.musp-second img{
+    width: 22%;
+    object-fit: cover;
+}
+
+.musp-third{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.musp-third img:first-child{
+    width: 22%;
+    object-fit: contain;
+}
+
+.musp-third img:last-child{
+    width: 40%;
+    object-fit: contain;
+}
+
+.musp-third .musp-linking a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--footer-color);
+    text-decoration: underline;
+}

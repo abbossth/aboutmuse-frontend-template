@@ -2,7 +2,6 @@ let menubar = document.querySelector('.fa-bars');
 let menu = document.querySelector('.mu-mobile-menu');
 
 menubar.addEventListener('click', function() {
-    console.log('clicked');
     menu.classList.toggle('active-menu');
 
     // Toggle body scroll lock
